@@ -1,0 +1,5 @@
+name: 'FOSS'
+type: module
+description: 'Module for launching open source software products in a click'
+core: 8.x
+package: 'FOSS'

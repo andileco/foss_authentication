@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains foss.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function foss_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dhis module.
+    case 'help.page.foss':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module for launching open source software products in a click') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+///**
+// * Implements hook_theme().
+// */
+//function foss_theme($existing, $type, $theme, $path) {
+//  return [
+//    'foss' => [
+//      'template' => 'foss',
+//      'variables' => array('test_var' => NULL),
+//    ],
+//  ];
+//}

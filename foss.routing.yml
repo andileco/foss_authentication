@@ -1,0 +1,15 @@
+foss.settings:
+  path: '/admin/foss/settings'
+  defaults:
+    _form: '\Drupal\foss\Form\FossSettingsForm'
+    _title: 'FOSS Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+foss.admin_foss:
+  path: '/admin/foss'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'FOSS'
+  requirements:
+    _permission: 'access foss administration pages'

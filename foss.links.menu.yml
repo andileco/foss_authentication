@@ -1,0 +1,14 @@
+foss.admin_foss:
+  title: 'FOSS'
+  description: 'Administer and configure your FOSS settings.'
+  route_name: 'foss.admin_foss'
+  weight: -9
+  parent: 'system.admin'
+
+foss.settings_foss:
+  title: 'FOSS Settings'
+  description: 'configure base url, username, and password'
+  route_name: 'foss.settings'
+  weight: 10
+  parent: 'foss.admin_foss'
+

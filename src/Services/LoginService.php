@@ -3,9 +3,8 @@
 /**
  * @file
  */
-namespace Drupal\dhis\Services;
+namespace Drupal\foss\Services;
 
 interface LoginService {
   public function login($url);
-
 }

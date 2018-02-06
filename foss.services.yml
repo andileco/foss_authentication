@@ -1,0 +1,4 @@
+services:
+  foss.foss_login:
+    class: Drupal\foss\Services\FossLogin
+    arguments: ['@config.factory']

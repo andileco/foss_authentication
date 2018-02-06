@@ -1,14 +1,14 @@
 {
-  "name": "drupal/dhis",
+  "name": "drupal/foss",
   "type": "drupal-module",
-  "description": "DHIS2 Module for connecting and retrieving metadata from a DHIS2 Instance",
+  "description": "Module for launching open source software products in a click",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/dhis",
+  "homepage": "https://www.drupal.org/project/foss",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/dhis",
-    "source": "http://cgit.drupalcode.org/dhis"
+    "issues": "https://www.drupal.org/project/issues/foss",
+    "source": "http://cgit.drupalcode.org/foss"
   },
   "require": {
     "guzzlehttp/guzzle": "^6.2@dev"
